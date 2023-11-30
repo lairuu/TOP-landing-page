@@ -124,11 +124,13 @@ a {
 .sign-up {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 40px;
     align-items: center;
     margin: 50px 0;
     background-color: #3882f6;
     color: #f9faf8;
+    margin: 50px 350px;
+    border-radius: 10px;
 }
 
 .sign-up h1 {
