@@ -1,0 +1,49 @@
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 200px;
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    flex: auto;
+    margin-bottom: 60px;
+}
+
+.header p {
+    margin-right: auto;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 400px;
+}
+
+.hero-text button {
+    width: 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
